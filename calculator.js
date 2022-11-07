@@ -29,9 +29,9 @@ switch (versionCalc) {
         break; 
       default:
         alert('That is not a valid input. Input the number of the operation you are trying to run');
-  
+        break;
     };
-
+  break;
   case '2':
 
     var equationType = parseInt(prompt('1). Slope\n2). Area of a circle\n3). Area of a square/rectangle\n4). Area of a triangle\n5). Volume of a cube\n6). Distance\n7). Time\n8). Speed'));
@@ -83,9 +83,9 @@ switch (versionCalc) {
       
       default:
         alert('That is not a valid input. Input the number of the operation you are trying to run');
-
-  
+        break;
     };
+  break;
   default:
     alert('That is not a valid input. Input the number of the operation you are trying to run');  
 };

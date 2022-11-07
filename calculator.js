@@ -83,9 +83,9 @@ switch (versionCalc) {
       
       default:
         alert('That is not a valid input. Input the number of the operation you are trying to run');
-
-  
+        break;
     };
+  break;
   default:
     alert('That is not a valid input. Input the number of the operation you are trying to run');  
 };

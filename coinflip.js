@@ -1,7 +1,6 @@
 javascript:
 var coinValue;
-coinValue = Math.floor(Math.random() * 10) + 1;
-
+coinValue = Math.random();
 if (coinValue > 0.5) {
   alert('Heads!');
 } else {

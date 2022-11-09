@@ -16,7 +16,7 @@ switch(playerNum) {
     var playerChoice = 'Scissors';
     break;
   default:
-    alert('Input not found. Try inputting the number of your choice (I.E for Rock enter 1')
+    alert('Input not found. Try inputting the number of your choice (I.E for Rock enter 1');
     break;
 }
 
@@ -37,40 +37,42 @@ switch(computerNum) {
     break;
 }
 
-if (playerNum = 1) {
-  if (computerNum = 1) {
+if (playerNum == 1) {
+  if (computerNum == 1) {
     alert('Tie!\nYou chose ' + playerChoice + ' and the computer chose ' + computerChoice);
   }
-  if (computerNum = 2) {
+  if (computerNum == 2) {
     alert('You lost!\nYou chose ' + playerChoice + ' and the computer chose ' + computerChoice);
   }
-  if (computerNum = 3) {
+  if (computerNum == 3) {
     alert('You Won!\nYou chose ' + playerChoice + ' and the computer chose ' + computerChoice);
+  }
 
 }
 
-if (playerNum = 2) {
-  if (computerNum = 1) {
+if (playerNum == 2) {
+  if (computerNum == 1) {
     alert('You won!\nYou chose ' + playerChoice + ' and the computer chose ' + computerChoice);
   }
-  if (computerNum = 2) {
+  if (computerNum == 2) {
     alert('Tie!\nYou chose ' + playerChoice + ' and the computer chose ' + computerChoice);
   }
-  if (computerNum = 3) {
+  if (computerNum == 3) {
     alert('You lost!\nYou chose ' + playerChoice + ' and the computer chose ' + computerChoice);
+  }
+}
+
     
-if (playerNum = 3) {
-  if (computerNum = 1) {
+if (playerNum == 3) {
+  if (computerNum == 1) {
     alert('You lost!\nYou chose ' + playerChoice + ' and the computer chose ' + computerChoice);
   }
-  if (computerNum = 2) {
+  if (computerNum == 2) {
     alert('You won!\nYou chose ' + playerChoice + ' and the computer chose ' + computerChoice);
   }
-  if (computerNum = 3) {
+  if (computerNum == 3) {
     alert('Tie!\nYou chose ' + playerChoice + ' and the computer chose ' + computerChoice);
+  }
 }
 
 alert('Thank you for using my bookmarklet!\nProgrammed by IlySn0w\nMy Github: https://github.com/IlySn0w/ilysn0ws-bookmarklets');
-
-
-

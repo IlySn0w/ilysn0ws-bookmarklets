@@ -18,7 +18,7 @@ switch(playerNum) {
   default:
     alert('Input not found. Try inputting the number of your choice (I.E for Rock enter 1')
     break;
-};
+}
 
 alert('Computer is choosing...');
 

@@ -6,4 +6,3 @@ if (coinValue > 0.5) {
 } else {
   alert('Tails!');
 }
-
